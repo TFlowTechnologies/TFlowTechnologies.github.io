@@ -8,4 +8,5 @@ Company name: TFlow Technologies
 
 Product name: TFlow 
 
-Is a GPS based system that controls traffic to increase the effectivity of first responders. By changing the lights while keeping thorough safety measures.
+Tflow is a service that provides a universal gps-based interface for automobile traffic management.
+
