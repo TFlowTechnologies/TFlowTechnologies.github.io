@@ -8,5 +8,4 @@ Company name: TFlow Technologies
 
 Product name: TFlow 
 
-Tflow is a service that provides a universal gps-based interface for automobile traffic management.
-
+Tflow is a service that provides a universal GPS-based interface for automobile traffic management designed to help first responders.
