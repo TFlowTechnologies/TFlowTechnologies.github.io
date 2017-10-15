@@ -13,10 +13,10 @@
 
 			<nav class="nav">
 				<a href="#">Home</a>
-				<a href="#">Product</a>
-                		<a href="#">Pricing</a>
-				<a href="#">About</a>
-                		<a href="#">Contact</a>
+				<a href="#product">Product</a>
+                <a href="#pricing">Pricing</a>
+				<a href="#about">About</a>
+                <a href="#contact">Contact</a>
 				<!--TODO: Share on social Media-->
 			</nav>
 
@@ -28,31 +28,57 @@
 		
 		
 		<hr>
-		<h2>Product</h2>
-		<br>
-		<br>
-		<br>
-		
+
+		<!--Product-->
+		<div>
+			<a name="product"></a>
+			<h2>Product</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum odio eu eros volutpat, eget elementum dui sagittis. Nunc sodales dui sed dolor venenatis viverra. Phasellus vulputate dapibus diam ac iaculis. Mauris a finibus justo. Vestibulum tempor mi sapien, at mattis turpis tincidunt at. Proin posuere blandit turpis, quis egestas lacus fringilla a. Ut nibh ipsum, lobortis ac augue et, varius aliquam leo. Nam iaculis nunc non finibus fermentum. Vestibulum rutrum efficitur vulputate. Proin rhoncus est sit amet dapibus pulvinar. Phasellus non laoreet nulla, id gravida tellus.
+			</p>
+		</div>
+
 		<hr>
-		<h2>Pricing</h2>
-		<br>
-		<br>
-		<br>
-		
+
+		<!--Pricing-->
+		<div>
+			<a name="pricing"></a>
+			<h2>Pricing</h2>
+			<p>Pricing is currently not available.</p>
+		</div>
         
-        	<hr>
-		<h2>About us</h2>
-		<p>(Pictures and descriptions of team members go here. Five pictures side by side. A description appears when you mouseover a picture. 
-            	<!--VMC-->)</p>
-        	<br>
-        	<br>
-        
+        <hr>
+
+        <!--About us-->
+        <div>
+			<a name="about"></a>
+			<h2>About us</h2>
+			<!--(Pictures and descriptions of team members go here. Five pictures side by side. A description appears when you mouseover a picture.) -->
+            <!--VMC-->
+			<img src="https://static.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg" alt="Picture of Andrew">
+			<img src="https://static.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg" alt="Picture of Sahil">
+			<img src="https://static.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg" alt="Picture of Vincent">
+			<img src="https://static.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg" alt="Picture of Pascal">	
+			<img src="https://static.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg" alt="Picture of Cedric">
+			<p></p>
+        </div>
+
 		<hr>
-		<h2>Contact us</h2>
-		<br>
-		<br>
-		<br>
-        
+             
+		<!--Contact Us-->
+		<div>
+			<a name="contact"></a>
+			<h2>Contact us</h2>
+			<h3>If you have any questions or concerns please contact us by entering your information below</h3>
+			<!-- Doesn't Do anything right now-->
+			<form id="contact" action="" method="post">
+				<input type="text" placeholder="Your name" tabindex="1" required>
+				<input type="email" placeholder="example123@example.com" tabindex="2" required>
+				<textarea placeholder="Your message here!" tabindex="3" required></textarea>
+				<button name="submit" type="submit" id="submit-contact" data-submit="...Sending">Submit</button>
+			</form>
+		</div>
+   
 	</body>
 
 </html>
