@@ -1,0 +1,126 @@
+.container{
+	width: 80%;
+	margin:  0 auto;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	background: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight:  400;
+	text-align: center;
+}
+
+/* Nav Bar */
+	/*Clear Fix*/
+header::after{
+	content: '';
+	display:  table;
+	clear: both;
+}
+	/*End Clear Fix*/
+header{
+	background:  rgba(0,0,0,0.8);
+}
+
+nav{
+	float: left;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a:hover{
+	color: #D6D6D6;
+}
+	/*Nav Animation*/
+nav a::before{
+	content:  '';
+	display: block;
+	height: 5px;
+	background: #FFFFFF;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+	/*End Nav Animation*/
+/*End Nav Bar*/
+
+/*Profile Images*/
+.profile-container{
+	position: relative;
+	width: 30%;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+}
+
+.profile-image{
+	display: block;
+	width: 100%;
+	margin-left: 5%;
+	height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 500ms ease;
+  background-color: #008CBA;
+}
+
+.profile-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-wrap: break-word;
+}
+
+
+/*End Profile Images*/
+
+/*Begin Contact Us*/
+.contact-us{
+	clear: left;
+}
+
+/*End Contact Us*/
