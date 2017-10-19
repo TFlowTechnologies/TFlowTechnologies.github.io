@@ -12,6 +12,10 @@ body{
 	text-align: center;
 }
 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* Nav Bar */
 	/*Clear Fix*/
 header::after{
@@ -70,6 +74,16 @@ nav a:hover::before{
 	/*End Nav Animation*/
 /*End Nav Bar*/
 
+#banner{
+	background-image: url("../pictures/bg.jpg");
+	background-size: 100% auto;
+	min-height: 800px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #FFFFFF;
+}
+
 /*Profile Images*/
 .profile-container{
 	position: relative;
@@ -115,7 +129,9 @@ nav a:hover::before{
   overflow-wrap: break-word;
 }
 
-
+.overlay-text a{
+	color: #FFFFFF;
+}
 /*End Profile Images*/
 
 /*Begin Contact Us*/
@@ -124,3 +140,5 @@ nav a:hover::before{
 }
 
 /*End Contact Us*/
+
+
