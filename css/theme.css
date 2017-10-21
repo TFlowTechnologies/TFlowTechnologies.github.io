@@ -209,6 +209,7 @@ h1{
 
 /*Begin Contact Us*/
 .contact-us{
+	background-color: grey;
 	clear: left;
 	width: 100%;
 	height: auto;
@@ -218,4 +219,7 @@ h1{
 /*Seperates the sections using a small grey line instead of the <hr> in the html.*/
 .top-seperate{
 	border-top: 0.2em solid grey;
+}
+video{
+    float: left;
 }
