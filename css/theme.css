@@ -31,10 +31,17 @@ header::after{
 	clear: both;
 }
 	/*End Clear Fix*/
-header{
-	background:  rgba(0,0,0,0.8);
+.main-header{
+	background:  rgba(0,0,0, 0);
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	transition: background 500ms ease-out;
 }
-
+.notattop{
+	background: rgba(0,0,0, 1);
+	transition: background 250ms ease-in;
+}
 nav{
 	float: left;
 }
@@ -113,7 +120,7 @@ h1{
 }
 
 .bttn{
-	margin-top:  8rem;
+	margin-top:  8em;
 	font-size: 1.3em;
 	display: inline-block;
 	width: 200px;
