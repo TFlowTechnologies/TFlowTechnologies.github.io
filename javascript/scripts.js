@@ -1,5 +1,5 @@
 function CheckScroll(){
-	var y = $('.main-header').height() * 12; 
+	var y = $('.main-header').height() * 2; 
 
 	if($(window).scrollTop() > y){
 		$('.main-header').addClass("notattop");
