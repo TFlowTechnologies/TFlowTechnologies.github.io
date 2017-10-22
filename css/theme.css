@@ -207,15 +207,6 @@ h1{
 }
 /*End Profile Images*/
 
-#team{
-	clear: left;
-	background-color: limegreen;
-}
-
-
-#tcertified{
-	background-color: firebrick;
-}
 
 /*Begin Contact Us*/
 .contact-us{
@@ -233,8 +224,20 @@ h1{
 
 /*floats video to left and performs clearfix*/
 video{
-	clear: right;
+	margin: 0;
+	padding: 0;
     float: left;
+}
+
+#tcertified{
+	height: 100%;
+	background-color: firebrick;
+}
+
+#team{
+	clear: left;
+	height: 100%;
+	background-color: limegreen;
 }
 
 /*scroll bar*/
