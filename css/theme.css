@@ -220,6 +220,11 @@ h1{
 .top-seperate{
 	border-top: 0.2em solid grey;
 }
+
 video{
     float: left;
+}
+
+#team{
+	clear: left;
 }
