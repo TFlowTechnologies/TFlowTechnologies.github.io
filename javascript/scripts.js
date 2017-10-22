@@ -9,10 +9,6 @@ function CheckScroll(){
 	}
 }
 
-$(window).scroll(function() {
-    CheckScroll();
-});
-
 //Smooth scrolling
 $(document).ready(function(){
 	//Link click event.
@@ -27,5 +23,9 @@ $(document).ready(function(){
 				scrollTop: $(hash).offset().top - $('.main-header').height()
 			}, 1000);
 		}
+	});
+
+	$(window).scroll(function() {
+    	CheckScroll();
 	});
 });
