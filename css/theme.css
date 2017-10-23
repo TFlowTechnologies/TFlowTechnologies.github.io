@@ -210,7 +210,7 @@ h1{
 
 /*Begin Contact Us*/
 .contact-us{
-	background-color: grey;
+	background-color: #333333;
 	clear: left;
 	width: 100%;
 	height: auto;
@@ -256,15 +256,20 @@ video{
     float: left;
 }
 
+#product{
+	height: 100%;
+	background-color: #00324D;
+}
+
 #tcertified{
 	height: 100%;
-	background-color: firebrick;
+	background-color: #006399;
 }
 
 #team{
 	clear: left;
 	height: 100%;
-	background-color: limegreen;
+	background-color: #173A4D;
 }
 
 /*scroll bar*/
