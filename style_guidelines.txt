@@ -1,0 +1,41 @@
+
+Colors
+======
+The colors have been chosen with the help of https://color.adobe.com/
+
+Home : (image)
+Product : #00324D
+Tcertified : #006399
+Team : #173A4D
+Contact : #333333
+
+
+Fonts
+=====
+The "Roboto" font will be used.
+The text will be white to contrast with the dark background colors.
+
+
+Links
+=====
+There will be two different types of links:
+  - LinkedIn profiles, reprensented by a LinkedIn logo in the team members descriptions.
+  - Links/buttons in the top bar. Will scroll up/down to the corresponding part of the page.
+
+
+Animations
+==========
+Top bar :
+  - Merges with the background when fully scrolled up. Becomes black when scrolling down.
+  - Stays at the top of the screen even when scrolling down.
+  - The buttons will be animated when the user hovers over them.
+
+Team members :
+  - When the user hovers over a picture, the description fades in and the image fades out.
+
+
+Other features
+==============
+  - Add fields to send e-emails in the "Contact Us" section.
+
+
