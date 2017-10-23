@@ -215,6 +215,33 @@ h1{
 	width: 100%;
 	height: auto;
 }
+.input{
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+button{
+	box-shadow: rgb(255, 255, 255) 0px 1px 4px 0px inset;
+	background: linear-gradient(rgb(237, 237, 237) 5%, rgb(223, 223, 223) 100%) rgb(237, 237, 237); 
+	border-radius: 6px;
+	border: 1px solid rgb(176, 176, 176); 
+	display: inline-block;
+	color: rgb(120, 120, 120); 
+	font-size: 15px; 
+	font-weight: bold; 
+	padding: 6px 24px; 
+	text-shadow: rgb(255, 255, 255) -1px 1px 0px;
+	transition: background 200ms ease-out;
+}
+button:hover{
+    background: linear-gradient(rgb(223, 223, 223) 5%, rgb(237, 237, 237) 100%) rgb(223, 223, 223);
+    transition: background  250ms ease-in;
+}
 /*End Contact Us*/
 
 /*Seperates the sections using a small grey line instead of the <hr> in the html.*/
