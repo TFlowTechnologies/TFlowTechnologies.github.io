@@ -36,6 +36,6 @@ Team members :
 
 Other features
 ==============
-  - Add fields to send e-emails in the "Contact Us" section.
+  - Add fields to send e-mails in the "Contact Us" section.
 
 
