@@ -320,7 +320,7 @@ video{
 		margin-top: 100px;
 	}
 	#product, #tcertified{
-		font-size: 1.2em;
+		font-size: 1.1em;
 		padding: 5%;
 	}
 	.float-content{
@@ -338,6 +338,10 @@ video{
 @media only screen and (max-width: 540px){
 	.inner-container{
 		margin-top: 150px;
+	}
+	#product, #tcertified{
+		font-size: 1em;
+		padding: 0;
 	}
 	h1{
 		font-size: 7em;
