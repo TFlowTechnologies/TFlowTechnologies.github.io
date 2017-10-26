@@ -326,6 +326,10 @@ video{
 	.bttn{
 		margin-top: 6em;
 	}
+	.profile-container{
+		width: 45%;
+		height: 45%;
+	}
 }
 @media only screen and (max-width: 960px){
 	.inner-container{
