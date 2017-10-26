@@ -376,9 +376,10 @@ video{
 @media only screen and (max-height: 680px){
 	.inner-container{
 		margin-top: 100px;
+	}
+	#team{
 		height: auto;
 	}
-
 	h1{
 		font-size: 7em;
 	}
@@ -389,10 +390,8 @@ video{
 		margin-top: 2em;
 	}
 	.profile-container{
-		width: 60%;
-		height: 60%;
-		color: red;
-		height: auto;
+		width: 65%;
+		height: 65%;
 	}
 }
 
