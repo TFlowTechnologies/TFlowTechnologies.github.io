@@ -376,6 +376,7 @@ video{
 @media only screen and (max-height: 680px){
 	.inner-container{
 		margin-top: 100px;
+		height: auto;
 	}
 
 	h1{
@@ -388,8 +389,8 @@ video{
 		margin-top: 2em;
 	}
 	.profile-container{
-		width: 55%;
-		height: 70%;
+		width: 50%;
+		height: 60%;
 	}
 }
 
