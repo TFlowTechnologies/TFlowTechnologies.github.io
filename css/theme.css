@@ -197,7 +197,7 @@ h1{
 /*Begin Contact Us*/
 .contact-us{
 	background-color: #333333;
-	clear: left;
+	clear: both;
 	width: 100%;
 	height: auto;
 }
@@ -300,6 +300,18 @@ video{
 	background-color: #D62929;
 }
 /*Media Queries*/
+@media only screen and (max-width: 1370px){
+	.profile-container{
+		float: none;
+		width: 40%;
+		height: 40%;
+	}
+	
+	#team{
+		height: auto;
+	}
+}
+
 @media only screen and (max-width: 1200px){
 	#product, #tcertified{
 		font-size: 1.4em;
@@ -327,12 +339,17 @@ video{
 		width: 90%;
 		float: none;
 	}
+
 	video{
 		float: none;
 		height: 30%;
 	}
 	.bttn{
 		margin-top: 5em;
+	}
+	.profile-container{
+		width: 50%;
+		height: 50%;
 	}
 }
 @media only screen and (max-width: 540px){
@@ -353,4 +370,35 @@ video{
 		margin-top: 4em;
 	}
 
+}
+
+@media only screen and (max-height: 680px){
+	.inner-container{
+		margin-top: 100px;
+	}
+
+	h1{
+		font-size: 7em;
+	}
+	.inner-container h2{
+		font-size: 1.6em;
+	}
+	.bttn{
+		margin-top: 2em;
+	}
+}
+
+@media only screen and (max-height: 500px){
+	.inner-container{
+		margin-top: 50px;
+	}
+	h1{
+		font-size: 5em;
+	}
+	.inner-container h2{
+		font-size: 1.2em;
+	}
+	.bttn{
+		margin-top: 1.1em;
+	}
 }
