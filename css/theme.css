@@ -12,6 +12,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-weight:  400;
 	text-align: center;
+	font-size: 1em;
 	width: 100%;
 	height: 100%
 }
@@ -141,28 +142,12 @@ h1{
 	transition:  background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
-@media only screen and (max-width: 920px){
-	.inner-container{
-		margin-top: 100px;
-	}
-}
-@media only screen and (max-width: 540px){
-	.inner-container{
-		margin-top: 150px;
-	}
-	h1{
-		font-size: 7em;
-	}
-	.inner-container h2{
-		font-size: 1.8em;
-	}
-}
 /*End Hero Banner*/
 /*Profile Images*/
 .profile-container{
 	position: relative;
-	width: 25%;
-	height: 35%;
+	width: 20%;
+	height: 30%;
 	padding: 5px;
 	margin: 10px;
 	float: left;
@@ -257,6 +242,8 @@ button:hover{
 video{
 	margin: 0;
 	padding: 0;
+	height: 50%;
+	width: 30%;
     float: left;
 }
 
@@ -264,10 +251,7 @@ video{
 	height: 50%;
 	background-color: #00324D;
 	font-size: 1.6em;
-	padding-top: 100px;
-	padding-right: 200px;
-	padding-bottom: 20px;
-	padding-left: 200px;
+	padding: 10%;
 
 }
 
@@ -275,17 +259,19 @@ video{
 	height: 100%;
 	background-color: #006399;
 	font-size: 1.6em;
-	padding-top: 100px;
-	padding-right: 200px;
-	padding-bottom: 20px;
-	padding-left: 200px;
+	padding: 10%;
 }
 
 #team{
+	clear: both;
 	height: 100%;
 	background-color: #173A4D;
 }
 
+.float-content{
+	float: right;
+	width: 70%;
+}
 .clearfix:after{
 	content: '';
 	display: table;
@@ -312,4 +298,46 @@ video{
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #D62929;
+}
+/*Media Queries*/
+@media only screen and (max-width: 1200px){
+	#product, #tcertified{
+		font-size: 1.4em;
+		padding: 7.5%;
+	}
+	.float-content{
+		width: 60%;
+	}
+	video{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 960px){
+	.inner-container{
+		margin-top: 100px;
+	}
+	#product, #tcertified{
+		font-size: 1.2em;
+		padding: 5%;
+	}
+	.float-content{
+		width: 90%;
+		float: none;
+	}
+	video{
+		float: none;
+		height: 30%;
+	}
+}
+@media only screen and (max-width: 540px){
+	.inner-container{
+		margin-top: 150px;
+	}
+	h1{
+		font-size: 7em;
+	}
+	.inner-container h2{
+		font-size: 1.8em;
+	}
+
 }
