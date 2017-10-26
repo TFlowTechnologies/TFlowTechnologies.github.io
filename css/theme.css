@@ -311,6 +311,9 @@ video{
 	video{
 		width: 40%;
 	}
+	.bttn{
+		margin-top: 6em;
+	}
 }
 @media only screen and (max-width: 960px){
 	.inner-container{
@@ -328,6 +331,9 @@ video{
 		float: none;
 		height: 30%;
 	}
+	.bttn{
+		margin-top: 5em;
+	}
 }
 @media only screen and (max-width: 540px){
 	.inner-container{
@@ -338,6 +344,9 @@ video{
 	}
 	.inner-container h2{
 		font-size: 1.8em;
+	}
+	.bttn{
+		margin-top: 4em;
 	}
 
 }
