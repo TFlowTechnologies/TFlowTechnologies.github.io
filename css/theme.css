@@ -202,7 +202,7 @@ h1{
 	height: auto;
 }
 .input{
-    width: 20%;
+    width: 33%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -310,6 +310,9 @@ video{
 	#team{
 		height: auto;
 	}
+	.input{
+		width: 45%;
+	}
 }
 
 @media only screen and (max-width: 1200px){
@@ -325,6 +328,9 @@ video{
 	}
 	.bttn{
 		margin-top: 6em;
+	}
+	.input{
+		width: 60%;
 	}
 
 }
@@ -351,6 +357,9 @@ video{
 	.profile-container{
 		width: 50%;
 		height: 50%;
+	}
+	.input{
+		width: 80%;
 	}
 }
 @media only screen and (max-width: 540px){
