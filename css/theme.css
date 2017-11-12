@@ -160,12 +160,6 @@ h1{
 	height: 100%;
 }
 
-.em-image{
-	width:29.5%;
-	height: 110%;
-	float: left;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -250,6 +244,7 @@ video{
 	padding: 0;
 	height: 50%;
 	width: 30%;
+    float: left;
 }
 
 #product{
@@ -259,9 +254,7 @@ video{
 	padding: 10%;
 
 }
-#productText{
-	display: inline;
-}
+
 #tcertified{
 	height: 100%;
 	background-color: #006399;
