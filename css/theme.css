@@ -141,8 +141,9 @@ h1{
 	text-decoration: none;
 	transition: opacity .3s;
 }
-
-
+.bttn a:hover{
+	opacity: 0.5;
+}
 #section07 a {
 	margin-top:  3em;
 }
