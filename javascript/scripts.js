@@ -1,6 +1,6 @@
 //Opacity Nav Bar
 function CheckScroll(){
-	var y = $('.main-header').height() * 3; 
+	var y = $('.main-header').height(); 
 
 	if($(window).scrollTop() > y){
 		$('.main-header').addClass("notattop");
