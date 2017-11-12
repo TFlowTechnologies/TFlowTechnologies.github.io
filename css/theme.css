@@ -388,7 +388,7 @@ video{
 		margin-top: 4em;
 	}
 	nav li{
-		margin-left: 1em; /* original 4.375em*/
+		margin-left: 0.6em; /* original 4.375em*/
 	}
 
 }
