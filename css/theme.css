@@ -47,7 +47,7 @@ header::after{
 .logo{
 	float: left;
 	display: block;
-	width: 7%;
+	width: 5%;
 	margin: 0 auto;
 }
 nav{
@@ -342,7 +342,7 @@ video{
 		font-size: 0.95em;
 	}
 	.logo{
-		width: 9%;
+		width: 7%;
 	}
 }
 @media only screen and (max-width: 960px){
@@ -377,7 +377,7 @@ video{
 		padding-top: 1.2em;
 	}
 	.logo{
-		width: 12%;
+		width: 9%;
 	}
 
 }
@@ -403,7 +403,7 @@ video{
 		margin-left: 0.85em; /* original 4.375em*/
 	}
 	.logo{
-		width: 17%;
+		width: 9.5%;
 	}
 
 }
