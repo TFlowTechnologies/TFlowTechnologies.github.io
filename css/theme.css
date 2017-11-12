@@ -127,26 +127,78 @@ h1{
 	text-align: center;
 }
 
-.bttn{
-	margin-top:  6.3em;
+.bttn a{
 	font-size: 1.3em;
 	display: inline-block;
 	width: 200px;
+	bottom: -10%;
 	font-weight: bold;
-	padding: 10px;
-	color: #FFFFFF;
-	border: 4px solid #FFFFFF;
-	text-align: center;
-	outline: none;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	letter-spacing: .1em;
 	text-decoration: none;
-	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	transition: opacity .3s;
 }
 
-.bttn:hover,.bttn:active{
-	background-color:  #ffffff;
-	color: #FF0000;
-	transition:  background-color 0.3s ease-in, color 0.3s ease-in;
+
+#section07 a {
+	margin-top:  3em;
 }
+#section07 a span {
+  position: absolute;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#section07 a span:nth-of-type(1) {
+  top: 0.5em;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#section07 a span:nth-of-type(2) {
+  top: 1.5em;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+#section07 a span:nth-of-type(3) {
+  top: 2.5em;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 /*End Hero Banner*/
 /*Profile Images*/
@@ -332,8 +384,8 @@ video{
 	video{
 		width: 40%;
 	}
-	.bttn{
-		margin-top: 6em;
+	#section07 a{
+		margin-top: 2.7em;
 	}
 	.input{
 		width: 60%;
@@ -362,8 +414,8 @@ video{
 		float: none;
 		height: 30%;
 	}
-	.bttn{
-		margin-top: 5em;
+	#section07 a{
+		margin-top: 2.3em;
 	}
 	.profile-container{
 		width: 50%;
@@ -395,8 +447,8 @@ video{
 	.inner-container h2{
 		font-size: 1.8em;
 	}
-	.bttn{
-		margin-top: 4em;
+	#section07 a{
+		margin-top: 2em;
 	}
 	nav li{
 		font-size: 0.9em;
@@ -428,8 +480,8 @@ video{
 	.inner-container h2{
 		font-size: 1.6em;
 	}
-	.bttn{
-		margin-top: 2em;
+	#section07 a{
+		margin-top: 1.0em;
 	}
 	.profile-container{
 		width: 65%;
@@ -441,6 +493,7 @@ video{
 		width: 80%;
 		height: 60%;
 	}
+
 }
 @media only screen and (max-height: 500px){
 	.inner-container{
@@ -452,7 +505,7 @@ video{
 	.inner-container h2{
 		font-size: 1.2em;
 	}
-	.bttn{
-		margin-top: 1.1em;
+	#section07 a{
+		margin-top: 0.9em;
 	}
 }
