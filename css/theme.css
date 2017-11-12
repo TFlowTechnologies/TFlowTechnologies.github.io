@@ -407,6 +407,13 @@ video{
 	}
 
 }
+@media only screen and (max-width: 420px){
+	nav li{
+		font-size: 0.8em;
+		margin-left: 0.7em; /* original 4.375em*/
+	}
+
+}
 
 @media only screen and (max-height: 680px){
 	.inner-container{
