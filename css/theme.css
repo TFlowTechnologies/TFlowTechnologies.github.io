@@ -459,12 +459,18 @@ video{
 	.logo{
 		width: 9.5%;
 	}
+	#product{
+		padding: 15% 10% 10% 10%;
+	}
 
 }
 @media only screen and (max-width: 420px){
 	nav li{
 		font-size: 0.8em;
 		margin-left: 0.4em; /* original 4.375em*/
+	}
+	#product{
+		padding: 20% 10% 10% 10%;
 	}
 
 }
