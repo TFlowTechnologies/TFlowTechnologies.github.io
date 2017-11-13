@@ -98,7 +98,7 @@ nav a:hover::before{
 /*Start Hero Banner*/
 .img-container{
 	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)),
-				linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%),
+				linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.4) 80%,rgba(0,0,0,.8) 100%),
 	            url("../pictures/bg.jpg") center/cover no-repeat;
 	position:  relative;
 	display: block;
@@ -306,8 +306,10 @@ video{
 }
 
 #product{
+	background: linear-gradient(to top,rgba(0,99,153, 0.9)  5%,rgba(0,0,0,.6) 80%,rgba(0,0,0,.8) 100%),
+	            #00324D;
 	height: 50%;
-	background-color: #00324D;
+	
 	font-size: 1.6em;
 	padding: 10%;
 
